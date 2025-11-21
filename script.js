@@ -1,3 +1,5 @@
+// Quando existe a opção de zoom-in e zoom-out, o animation_grow e animation_shrink podem funcionar de maneira errada.
+// As animações padrões não levam em consideração a escala atual do objeto, o que pode causar um efeito inesperado.
 // O componente abaixo permite escalar um objeto de forma proporcional ao invés de valores fixos.
 AFRAME.registerComponent('proporcional-scale', {
   schema: {
@@ -60,6 +62,7 @@ AFRAME.registerComponent('show-info-on-click', {
                 <p>Tamanho: 45x45x90 cm</p>
                 <p>Peso: 7 kg</p>
                 <p>Material: Madeira e Couro</p>
+                <a href="https://shopee.com.br/" target="_blank">shopee.com.br</a>
               </div>
             </li>
             <li class="item">
@@ -69,6 +72,7 @@ AFRAME.registerComponent('show-info-on-click', {
                 <p>Tamanho: 200x90x50 cm</p>
                 <p>Peso: 25 kg</p>
                 <p>Material: Madeira e MDF</p>
+                <a href="https://shopee.com.br/" target="_blank">shopee.com.br</a>
               </div>
             </li>
             <li class="item">
@@ -78,6 +82,7 @@ AFRAME.registerComponent('show-info-on-click', {
                 <p>Tamanho: 150x90x75 cm</p>
                 <p>Peso: 40 kg</p>
                 <p>Material: Madeira maciça</p>
+                <a href="https://shopee.com.br/" target="_blank">shopee.com.br</a>
               </div>
             </li>
           </ul>
